@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .area {
+    width: 100%;
+  }
+  .game-area {
+    width: 70%;
+    height: 50vh;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .game-object {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .game-consol {
+    width: 224px;
+    height: 125px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+  
+  .buttom {
+    width: 80%;
+    height: 90%;
+  }
+  .line * {
+    width: 20%;
+    height: 25px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .line {
+    display: flex;
+  }
+  .game-consol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-area{
+    display: flex;
+    justify-content: center;
+  }
+  .input-area *{
+    width: 100px;
+    margin-left: 20px;
+  }
